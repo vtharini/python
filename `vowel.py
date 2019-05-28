@@ -1,7 +1,11 @@
 ch=input()
 ch.lower()
-if(ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
-  print("Vowel")
+li=['a','e','i','o','u']
+if(ord(ch)>=97 and ord(ch)<=122):
+	if ch in li:
+		print("Vowel")
+  else:
+	  print("Consonant")
 else:
-	print("Consonant")
+	print("Invalid")
   
