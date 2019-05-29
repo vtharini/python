@@ -1,3 +1,3 @@
 n,k=list(map(int,input().split()))
-pow=n**K
+pow=n**k
 print(pow)
