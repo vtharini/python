@@ -13,4 +13,4 @@ while(temp!=0):
 if(sum==nu):
     print("yes")
 else:
-    print("No")
+    print("no")
