@@ -4,5 +4,5 @@ for i in range(u+1,v):
         if(i%j==0):
             break
     else:
-        print(i)
+        print(i,end=" ")
         
