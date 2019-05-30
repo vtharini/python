@@ -1,0 +1,5 @@
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split())) 
+h=abs(l1[0]-l2[0])
+m=abs(l1[1]-l2[1])
+print(h,m)
