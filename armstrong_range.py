@@ -1,5 +1,5 @@
 u,v=map(int,input().split())
-for nu in range(u,v+1):
+for nu in range(u,v):
     temp=nu
     dig=nu
     c=0
