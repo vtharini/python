@@ -12,4 +12,4 @@ for nu in range(u,v+1):
         sum=sum+(d**c)
         temp//=10
     if(sum==nu):
-        print(nu)
+        print(nu,end=" ")
